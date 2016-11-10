@@ -3,11 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Launchpad</title>
+		<script src="audiosynth.js" charset="utf-8"></script>
         <link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body class="text-center">
         <div class="tools-left">
-            <button type="button">Set sound</button>
+            <select class="" name="" onchange="setInstrument(this)">
+				<option value="edm">edm</option>
+				<option value="organ">organ</option>
+				<option value="accoustic">accoustic</option>
+				<option value="piano">piano</option>
+
+            </select>
         </div>
 
         <div class="tools-right">
